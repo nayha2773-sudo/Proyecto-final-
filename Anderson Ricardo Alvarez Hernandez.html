@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>SportStep - Zapatos Deportivos</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .marquesina {
+      background: black;
+      color:      red;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    @keyframes mover {
+      from { transform: translateX(100%); }
+      to   { transform: translateX(-100%); }
+    }
+
+    .marquesina span {
+      display: inline-block;
+      animation: mover 15s linear infinite;
+    }
+
+    nav {
+      background: red;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .seccion {
+      padding: 30px 60px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    h2 { color: red; }
+
+    img {
+      width: 400px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="marquesina">
+    <span> Anderson Ricardo Alvarez Hernandez </span>
+  </div>
+
+  <h1 style="text-align:center; padding:20px;">SPORT<span style="color:red;">STEP</span></h1>
+
+  <nav>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#acerca">Acerca de Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#proveedores">Proveedores</a>
+    <a href="#ventas">Ventas</a>
+    <a href="#contactos">Contactos</a>
+  </nav>
+
+  <div class="seccion" id="quienes">
+    <h2>👟 Quiénes Somos</h2>
+    <p>Somos una tienda guatemalteca de zapatos deportivos fundada en 2010. Llevamos más de 14 años ayudando a atletas y deportistas a encontrar el calzado perfecto.</p>
+    <img src="mi foto.jpeg" alt="Foto mía">
+  </div>
+
+  <div class="seccion" id="acerca">
+    <h2>🏆 Acerca de Nosotros</h2>
+    <p><strong>Misión:</strong> Proveer calzado deportivo de calidad con un servicio honesto y accesible para todos los guatemaltecos.</p>
+    <p><strong>Visión:</strong> Ser la tienda de zapatos deportivos más reconocida de Centroamérica para el año 2030.</p>
+  </div>
+
+  <div class="seccion" id="productos">
+    <h2>🛍️ Productos que Ofrecemos</h2>
+    <ul>
+
+      <li> Running — para corredores de calle y montaña</li>
+      <li>Fútbol — tacos para césped natural y artificial</li>
+      <li> Básquetbol — zapatillas de cancha con soporte</li>
+      <li>Gym y Crossfit — para entrenamiento funcional</li>
+      <li>Niños — diseños divertidos y materiales seguros</li>
+    </ul>
+  </div>
+
+  <div class="seccion" id="proveedores">
+    <h2> Proveedores (Marcas que Compramos)</h2>
+    <p>Compramos directamente a las marcas más reconocidas del mundo:</p>
+    <ul>
+      <li>Nike</li>
+      <p>Precio de: Q1200.00</p>
+      <img src="https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8d6b6d0d-c499-417e-a93a-7381652c1cac/W+NIKE+DUNK+LOW+NEXT+NATURE.png" alt="Foto Nike">
+      <li>Adidas</li>
+      <p>Precio de: Q1500.00</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeCZSCtqFQ71TD8vIWc_q6XqkHTa4y9zOCnw&s" alt="Foto adidas">
+      <li>Puma</li>
+      <p>Precio de: Q1300.00</p>
+      <img src="https://emporium.com.gt/wp-content/uploads/rdi/sneakers-blanco-estilo-398181-04-marca-puma-cl-sico-165416-366510_2.jpg" alt="Foto puma">
+      <li>New Balance</li>
+      <p>Precio de: Q1250.00</p>
+      <img src="https://img.pacifiko.com/PROD/resize/1/500x500/B088WY3FNY.jpg" alt="Foto New Balance">
+      <li>Under Armour</li>
+      <p>Precio de: Q8700.00</p>
+      <img src="https://img.pacifiko.com/PROD/resize/1/500x500/OWM0Nzc4YT.jpg" alt="Foto Under Armour">
+      <li>Reebok</li>
+      <p>Precio de: Q950.00</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9cm8CoxOXAtgqNsSaSGBF657htsXxWMqwg&s" alt="Foto Reebok">
+    </ul>
+  </div>
+
+  <div class="seccion" id="ventas">
+    <h2> Ventas — ¿A Quién Le Vendemos?</h2>
+    <ul>
+      <li><strong>Cliente final:</strong> Personas que compran para uso personal.</li>
+      <img src="https://media.istockphoto.com/id/1464043502/es/foto/mujer-feliz-que-busca-zapatillas-nuevas-mientras-compra-en-el-centro-comercial.jpg?s=612x612&w=0&k=20&c=V8wGdhLY2xz0wryl-JhlAUVcIrmnkCqtAmjoeWuB6sI=" alt="Foto cleintes">
+      <li><strong>Colegios y clubes:</strong> Precios especiales para compras en grupo.</li>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrvcQqZkO7bPGfdYq0v_csnlGCdtQSAOJVPA&s" alt="Foto colegio">
+      <li><strong>Tienda en línea:</strong> Envíos a todo Guatemala.</li>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYeVQs1JGzuq41Qw7d0gTIv9WCp2929hJaLw&s" alt="Foto tienda en linea">
+    </ul>
+  </div>
+
+  <div class="seccion" id="contactos">
+    <h2>📞 Contactos</h2>
+    <p>📧 Correo: ventas@sportstep.gt</p>
+    <p>📱 Teléfono: +502 2345-6789</p>
+    <p>💬 WhatsApp: +502 5678-9012</p>
+    <p>📍 Dirección: 5a Avenida 10-50, Zona 1, Guatemala City</p>
+  </div>
+
+  <footer>
+    <p>"Y conoceréis la verdad y la verdad os hará libres" 👟</p>
+    <p>© 2026 SportStep Guatemala</p>
+  </footer>
+
+</body>
+</html>
